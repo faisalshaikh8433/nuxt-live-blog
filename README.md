@@ -1,75 +1,39 @@
-# Nuxt 3 Minimal Starter
+# Live Blog App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a live blog app that uses the API provided by [adonis-blog-app](https://github.com/faisalshaikh8433/adonis-blog-app).
 
-## Setup
+## Technologies Used
 
-Make sure to install the dependencies:
+- [Nuxt 3](https://nuxtjs.org/): A modern web development framework for building Vue.js applications.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for quickly building custom designs.
 
-```bash
-# npm
-npm install
+## Environment Setup
 
-# pnpm
-pnpm install
+1. Create a `.env` file in the root of the project.
 
-# yarn
-yarn install
+2. Add the following environment variable to the `.env` file:
 
-# bun
-bun install
-```
+   ```plaintext
+   NUXT_API_URL=http://localhost:3333
+   This is the base URL for the blog app API.
+## Getting Started
 
-## Development Server
+1. Clone the repository:
 
-Start the development server on `http://localhost:3000`:
+   ```bash
+   git clone https://github.com/faisalshaikh8433/nuxt-live-blog.git
 
-```bash
-# npm
-npm run dev
+2. Navigate to the project directory:
 
-# pnpm
-pnpm run dev
+   ```bash
+   cd nuxt-live-blog
+   
+3. Install dependency:
 
-# yarn
-yarn dev
+   ```bash
+   npm install
 
-# bun
-bun run dev
-```
+4. Start the development server:
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   ```bash
+   npm run dev
