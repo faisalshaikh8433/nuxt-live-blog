@@ -1,6 +1,7 @@
-# Live Blog App
+# Live Blog Site
 
 This is a live blog app that uses the API provided by [adonis-blog-app](https://github.com/faisalshaikh8433/adonis-blog-app).
+- [Short demo link](https://drive.google.com/file/d/110CC1VeeraOApL42rrpGhCx4dPTWyb-p/view?usp=drive_link): On first tab blog app is loaded and on second tab live blog site is loaded.
 
 ## Technologies Used
 
