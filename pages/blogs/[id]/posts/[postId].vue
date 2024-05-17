@@ -51,6 +51,7 @@
         return Array.from(extractedUrls);
     };
     const fetchAndDisplayMetadata = async (url) => {
+        // Below call can be implemented on server side for scraping meta data of links but for demo purpose and getting job done using https://meta.mehari.workers.dev
         const dataFetch = await $fetch(
             `https://meta.mehari.workers.dev?url=${url}`
         );
